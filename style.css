@@ -12,6 +12,19 @@ body{
     border: 5px solid burlywood;
     border-radius: 5px;
 }
+.heading{
+  /* width: 100vh; */
+  height: 5px;
+  padding-top: 40px;
+  text-align: center;
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 40px;
+  
+}
+h2{
+    color: blueviolet;
+}
 a{
     text-decoration: none;
 }
