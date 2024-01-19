@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-transform: uppercase;
+}
+body{
+    background-image: url(hotel\ image.jpg);
+    background-size: cover;
+    height: 100vh;
+    border: 5px solid burlywood;
+    border-radius: 5px;
+}
+a{
+    text-decoration: none;
+}
+.main_box{
+    /* background-color: black; */
+    height: 100vh;
+    width:250px;
+    position: absolute;
+    /* box-shadow: 3px 3px 10px bisque; */
+    /* left: -250px; */
+}
+
+.btn_one{
+    position: absolute;
+    color:black;
+    font-size:35px;
+    line-height:90px;
+    font-weight:900;
+    left:20px;
+}
+.sidebar_menu{
+    background-color: black;
+    position: fixed;
+    left: -270px;
+    height: 100vh;
+    width: 250px;
+    box-shadow: 3px 3px 10px bisque;
+}
+.sidebar_menu .logo{
+    position: absolute;
+    font-size:25px;
+    top:30px;
+    /* padding-left: 15px; */
+    left: 32px;
+   box-shadow: 2px 2px 10px bisque;
+}
+.sidebar_menu .logo a{
+     padding-right: 14px;
+}
+.menu{
+    position: absolute;
+    top:80px;
+    font-size:25px;
+    line-height:60px;
+    box-shadow: 3px 5px 10px rebeccapurple;
+    opacity: 0.6;
+}
+.menu{
+    opacity: 1;
+    
+
+}
+.menu li:hover{
+    /* background-color: bisque; */
+    border:4px solid rebeccapurple;
+}
+.menu a,i{
+    margin-left: 15px;
+}
+.socialmedia_bar{
+    position: absolute;
+    bottom: 100px;
+    font-size:20px;
+    left:7px;
+    font-weight: 400;
+    opacity: 0.6;
+}
+.socialmedia_bar:hover{
+    font-size: 23px;
+    opacity: 1;
+}
+#check{
+    display: none;
+}
+#check:checked~.sidebar_menu{
+    left: 0;
+}
